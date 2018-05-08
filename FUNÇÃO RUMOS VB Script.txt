@@ -4,10 +4,15 @@
 'APLICAR NO FIELD CALCULATOR NO CAMPO RUMO DEPOIS DE OBTER OS AZIMUTES
 'Atualização a partir do proposto em:
 
-'Oliveira, D.B., Moreno, R.S., Miranda, D.J., Ribeiro, C.S., Seoane, J.C.S. 2009. Elaboração de um
+'Oliveira, D.B.; Moreno, R.S.; Miranda, D.J.; Ribeiro, C.S.; Seoane, J.C.S. 2009. Elaboração de um
 'mapa de lineamento estrutural e densidade de lineamento através de imagem SRTM, em área ao
 'norte do Rio Doce, ES. In: Simp. Bras. Sensor. Remoto (SBSR), 14, Natal, Anais... p. 4157-4163.
 
+'Aplicado em:
+'Dos-Santos, L.F.; Antonelli, T. 2015. Contribuição à avaliação de risco geológico a partir de técnicas
+'de Sensoriamento Remoto em análise de imagens SRTM, ASTER-GDEM e Landsat aplicadas aos municípios
+'de Embu das Artes e Itapecerica da Serra, SP. In: Congresso Bras. Geol. Eng. e Amb. (CBGE), 25, 
+'Bento Gonçalves, Anais....
 
 Dim Dir
 If [Azimute] <= 20 Then
