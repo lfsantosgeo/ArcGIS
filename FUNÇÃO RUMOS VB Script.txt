@@ -1,0 +1,43 @@
+'FUNCAO PARA EXTRAIR AS DIREÇÕES RELATIVAS A NORTE DO AZIMUTE
+'RUMO = Dir
+'LINGUAGEM VB SCRIPT (NÃO É VBA)
+'APLICAR NO FIELD CALCULATOR NO CAMPO RUMO DEPOIS DE OBTER OS AZIMUTES
+
+
+Dim Dir
+If [Azimute] <= 20 Then
+Dir = "NNE"
+
+elseif [Azimute] <= 70 Then
+Dir = "NE"
+
+elseif [Azimute] <= 90 Then
+Dir = "E-W"
+
+elseif [Azimute] <= 110 Then
+Dir = "E-W"
+
+elseif [Azimute] <= 160 Then
+Dir = "NW"
+
+elseif [Azimute] <= 180 Then
+Dir = "NNW"
+
+elseif [Azimute] <= 200 Then
+Dir = "NNE"
+
+elseif [Azimute] <= 250 Then
+Dir = "NE"
+
+elseif [Azimute] <= 270 Then
+Dir = "E-W"
+
+elseif [Azimute] <= 290 Then
+Dir = "E-W"
+
+elseif [Azimute] <= 340 Then
+Dir = "NW"
+
+else
+Dir = "NNW"
+end if
