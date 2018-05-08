@@ -1,7 +1,12 @@
-'FUNCAO PARA EXTRAIR AS DIRE��ES RELATIVAS A NORTE DO AZIMUTE
+'FUNCAO PARA EXTRAIR AS DIREÇÕES RELATIVAS A NORTE DO AZIMUTE
 'RUMO = Dir
-'LINGUAGEM VB SCRIPT (N�O � VBA)
+'LINGUAGEM VB SCRIPT
 'APLICAR NO FIELD CALCULATOR NO CAMPO RUMO DEPOIS DE OBTER OS AZIMUTES
+'Atualização a partir do proposto em:
+
+'Oliveira, D.B., Moreno, R.S., Miranda, D.J., Ribeiro, C.S., Seoane, J.C.S. 2009. Elaboração de um
+'mapa de lineamento estrutural e densidade de lineamento através de imagem SRTM, em área ao
+'norte do Rio Doce, ES. In: Simp. Bras. Sensor. Remoto (SBSR), 14, Natal, Anais... p. 4157-4163.
 
 
 Dim Dir
